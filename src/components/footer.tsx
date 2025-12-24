@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Zap } from 'lucide-react';
+import Image from 'next/image';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,8 +11,7 @@ export function Footer() {
             &copy; {currentYear} Apselon Technology Pvt. Ltd. All rights reserved.
           </p>
           <div className="flex items-center gap-2 order-1 md:order-2">
-            <Zap className="h-6 w-6 text-primary" />
-            <span className="font-bold text-lg">APSELON</span>
+            <Image src="/apselon_logo.PNG" alt="Apselon Logo" width={64} height={64} className="h-16 w-auto" />
           </div>
           <div className="flex gap-4 order-3 md:order-3 flex-1 justify-end">
             <Link href="/about" className="text-sm hover:underline">About</Link>

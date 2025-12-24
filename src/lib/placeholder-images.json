@@ -7,38 +7,38 @@
       "imageHint": "circuit board technology"
     },
     {
-      "id": "single-layer-pcb-1",
-      "description": "A simple single layer PCB with clear traces.",
+      "id": "single-side-pcb-1",
+      "description": "A simple single side PCB with clear traces.",
       "imageUrl": "/single-layer-pcb.gif",
       "imageHint": "simple pcb"
     },
     {
-      "id": "single-layer-pcb-2",
+      "id": "single-side-pcb-2",
       "description": "Top view of a basic green single-sided PCB.",
       "imageUrl": "/single-layer-pcb-2.png",
       "imageHint": "green pcb"
     },
     {
-      "id": "single-layer-pcb-3",
-      "description": "A single layer board used in a small electronic device.",
+      "id": "single-side-pcb-3",
+      "description": "A single side board used in a small electronic device.",
       "imageUrl": "/single-layer-pcb-3.png",
       "imageHint": "small electronic"
     },
     {
-      "id": "double-layer-pcb-1",
-      "description": "A more complex double layer PCB with components.",
+      "id": "double-side-pcb-1",
+      "description": "A more complex double side PCB with components.",
       "imageUrl": "/double-layer-pcb.jpeg.jpg",
       "imageHint": "complex pcb"
     },
     {
-      "id": "double-layer-pcb-2",
+      "id": "double-side-pcb-2",
       "description": "A double-sided PCB showing tracks on both sides.",
       "imageUrl": "/double-layer-pcb-2.png",
       "imageHint": "double sided pcb"
     },
     {
-      "id": "double-layer-pcb-3",
-      "description": "Close-up of a double layer PCB with microchips.",
+      "id": "double-side-pcb-3",
+      "description": "Close-up of a double side PCB with microchips.",
       "imageUrl": "/double-layer-pcb-3.png",
       "imageHint": "microchip"
     },

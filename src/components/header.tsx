@@ -2,9 +2,10 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Zap } from 'lucide-react';
+import { Menu } from 'lucide-react';
 
 const navLinksLeft = [
   { href: '/about', label: 'About Us' },
@@ -43,8 +44,7 @@ export function Header() {
         </div>
 
         <Link href="/" className="flex items-center gap-2 font-bold text-lg md:text-xl absolute left-4 md:left-1/2 md:-translate-x-1/2">
-          <Zap className="h-6 w-6 text-primary" />
-          <span>APSELON</span>
+          <Image src="/apselon_logo.PNG" alt="Apselon Logo" width={64} height={64} className="h-16 w-auto" />
         </Link>
         
         <div className="hidden md:flex flex-1 items-center justify-end gap-6">
@@ -72,8 +72,7 @@ export function Header() {
             <SheetContent side="right">
               <div className="flex flex-col gap-6 p-6">
                 <Link href="/" className="flex items-center gap-2 font-bold text-xl" onClick={() => setOpen(false)}>
-                  <Zap className="h-6 w-6 text-primary" />
-                  <span>APSELON</span>
+                  <Image src="/apselon_logo.PNG" alt="Apselon Logo" width={64} height={64} className="h-16 w-auto" />
                 </Link>
                 <nav className="flex flex-col gap-4">
                   {allNavLinks.map((link) => (

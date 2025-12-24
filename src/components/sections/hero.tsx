@@ -4,23 +4,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Download } from 'lucide-react';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function Hero() {
-  const heroImage = PlaceHolderImages.find(p => p.id === 'hero-pcb');
-
   return (
     <section className="relative h-[80vh] min-h-[600px] w-full flex items-center justify-center text-white overflow-hidden">
-      {heroImage && (
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          className="object-cover"
-          priority
-          data-ai-hint={heroImage.imageHint}
-        />
-      )}
+      <Image
+        src="/homepage_img.jpg"
+        alt="Apselon Technology"
+        fill
+        className="object-cover"
+        priority
+      />
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-blue-900/30 to-transparent" />
       

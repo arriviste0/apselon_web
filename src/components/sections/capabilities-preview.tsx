@@ -36,12 +36,12 @@ export function CapabilitiesPreview() {
           </div>
           <div className="animate-fade-in-up" style={{ animationDelay: '400ms' }}>
             <div className="overflow-hidden rounded-lg shadow-xl aspect-[4/3] relative">
-              <Image 
-                  src="/capabilities-preview.png" 
-                  alt="PCB Manufacturing Process" 
+              <Image
+                  src="/technical_capi.jpg"
+                  alt="Technical Capabilities"
                   fill
                   className="object-cover rounded-lg transition-transform duration-500 hover:scale-110"
-                  data-ai-hint="pcb manufacturing"
+                  data-ai-hint="technical capabilities"
               />
             </div>
           </div>

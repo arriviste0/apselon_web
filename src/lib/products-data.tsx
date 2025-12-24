@@ -22,30 +22,30 @@ const findImage = (id: string) => {
 export const products: Product[] = [
   {
     icon: <Layers className="h-8 w-8 text-white" />,
-    slug: 'single-layer-pcb',
-    title: 'Single Layer PCB',
+    slug: 'single-side-pcb',
+    title: 'Single Side PCB',
     description: 'Cost-effective and reliable, ideal for a variety of simple to medium complexity circuits.',
     features: ['Consumer Electronics', 'LED Lighting', 'Power Supplies', 'Automotive', 'Calculators', 'Printers'],
     badge: null,
     images: [
-        findImage('single-layer-pcb-1'),
-        findImage('single-layer-pcb-2'),
-        findImage('single-layer-pcb-3'),
-        findImage('double-layer-pcb-3'), // using as a generic electronics image
+        { id: 'single-layer-1', description: 'Single layer PCB 1', imageUrl: '/single layer 1.jpg', imageHint: 'single layer pcb' },
+        { id: 'single-layer-2', description: 'Single layer PCB 2', imageUrl: '/single layer 2.jpg', imageHint: 'single layer pcb' },
+        { id: 'single-layer-3', description: 'Single layer PCB 3', imageUrl: '/single layer 3.jpg', imageHint: 'single layer pcb' },
+        { id: 'single-layer-4', description: 'Single layer PCB 4', imageUrl: '/single layer 4.jpg', imageHint: 'single layer pcb' },
     ],
   },
   {
     icon: <Layers2 className="h-8 w-8 text-white" />,
-    slug: 'double-layer-pcb',
-    title: 'Double Layer PCB',
+    slug: 'double-side-pcb',
+    title: 'Double Side PCB',
     description: 'Offers increased circuit density for more complex designs and applications.',
     features: ['Industrial Controls', 'Instrumentation', 'Communication Systems', 'HVAC', 'Medical Equipment', 'Amplifiers'],
     badge: null,
     images: [
-        findImage('double-layer-pcb-1'),
-        findImage('double-layer-pcb-2'),
-        findImage('double-layer-pcb-3'),
-        findImage('multi-layer-pcb-2'),
+        { id: 'double-side-1', description: 'Double side PCB 1', imageUrl: '/DL 1.jpg', imageHint: 'double side pcb' },
+        { id: 'double-side-2', description: 'Double side PCB 2', imageUrl: '/DL 2.jpg', imageHint: 'double side pcb' },
+        { id: 'double-side-3', description: 'Double side PCB 3', imageUrl: '/DL 3.jpg', imageHint: 'double side pcb' },
+        { id: 'double-side-4', description: 'Double side PCB 4', imageUrl: '/DL 4.jpg', imageHint: 'double side pcb' },
     ],
   },
   {
@@ -56,10 +56,10 @@ export const products: Product[] = [
     features: ['Aerospace', 'Medical Devices', 'IoT Gadgets', 'High-speed circuits', 'Computers', 'Smartphones'],
     badge: 'Coming Soon',
     images: [
-        findImage('multi-layer-pcb-1'),
-        findImage('multi-layer-pcb-2'),
-        findImage('multi-layer-pcb-3'),
-        findImage('hero-pcb'),
+        { id: 'multi-layer-1', description: 'Multi Layer PCB 1', imageUrl: '/ML 1.jpg', imageHint: 'multi layer pcb' },
+        { id: 'multi-layer-2', description: 'Multi Layer PCB 2', imageUrl: '/ML 2.jpg', imageHint: 'multi layer pcb' },
+        { id: 'multi-layer-3', description: 'Multi Layer PCB 3', imageUrl: '/ML 3.jpg', imageHint: 'multi layer pcb' },
+        { id: 'multi-layer-4', description: 'Multi Layer PCB 4', imageUrl: '/ML 4.jpg', imageHint: 'multi layer pcb' },
     ],
   },
 ];

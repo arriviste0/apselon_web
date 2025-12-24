@@ -14,15 +14,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef, useState, useMemo } from 'react';
 import Image from 'next/image';
-import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
-
-const findImage = (id: string) => {
-    const img = PlaceHolderImages.find(p => p.id === id);
-    if (!img) {
-      throw new Error(`Image with id "${id}" not found.`);
-    }
-    return img;
-}
 
 const trustPoints = [
   {
@@ -30,47 +21,47 @@ const trustPoints = [
     title: 'Fast Delivery (24–72 hrs)',
     description:
       'Get your PCBs quickly with our expedited manufacturing and shipping process.',
-    image: findImage('trust-delivery'),
+    image: { imageUrl: '/why_apselon_1.jpg', description: 'Why Apselon 2', imageHint: 'trust reason' },
   },
   {
     icon: <Target className="h-8 w-8" />,
     title: 'High Accuracy & Consistency',
     description:
       'Every board is produced with exacting precision for reliable performance.',
-      image: findImage('trust-accuracy'),
+      image: { imageUrl: '/why_apselon_2.jpg', description: 'Why Apselon 1', imageHint: 'trust reason' },
   },
   {
     icon: <Cpu className="h-8 w-8" />,
     title: 'Advanced Machines & Automation',
     description:
       'Leveraging state-of-the-art technology for superior quality and efficiency.',
-      image: findImage('trust-automation'),
+      image: { imageUrl: '/why_apselon_3.jpg', description: 'Why Apselon 3', imageHint: 'trust reason' },
   },
   {
     icon: <BadgeDollarSign className="h-8 w-8" />,
     title: 'Competitive Pricing',
     description: 'Top-tier quality at prices that keep your projects on budget.',
-    image: findImage('trust-pricing'),
+    image: { imageUrl: '/why_apselon_4.jpg', description: 'Why Apselon 4', imageHint: 'trust reason' },
   },
   {
     icon: <ShieldCheck className="h-8 w-8" />,
     title: 'Strong QC & Inspection',
     description:
       'Rigorous testing at every stage to ensure flawless final products.',
-      image: findImage('trust-qc'),
+      image: { imageUrl: '/why_apselon_5.jpg', description: 'Why Apselon 5', imageHint: 'trust reason' },
   },
   {
     icon: <HeartHandshake className="h-8 w-8" />,
     title: 'Dedicated Customer Support',
     description:
       'Our expert team is here to assist you from quoting to delivery.',
-      image: findImage('trust-support'),
+      image: { imageUrl: '/why_apselon_6.jpg', description: 'Why Apselon 6', imageHint: 'trust reason' },
   },
   {
     icon: <Award className="h-8 w-8" />,
     title: 'OEM Trusted Supplier',
     description: 'The preferred partner for leading original equipment manufacturers.',
-    image: findImage('trust-oem'),
+    image: { imageUrl: '/why_apselon_7.jpg', description: 'Why Apselon 6', imageHint: 'trust reason' },
   },
 ];
 

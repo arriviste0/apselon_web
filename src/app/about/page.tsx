@@ -6,7 +6,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Cpu, Truck, Lightbulb, Users } from 'lucide-react';
 import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import {
   Carousel,
   CarouselContent,
@@ -39,17 +38,16 @@ const features = [
 ];
 
 const leadership = [
-  { name: 'Hitesh Patel', role: 'Director', imageUrl: '/Hitesh Patel - Director Photo.jpg', imageHint: 'male portrait' },
-  { name: 'Vasant Patel', role: 'Director', imageUrl: '/Vasant Patel - Director Photo.jpg', imageHint: 'male portrait' },
-  { name: 'Suresh Patel', role: 'Admin Head', imageUrl: '/Admin_Head_Photo.HEIC', imageHint: 'male portrait' },
+  { name: 'Hitesh Patel', role: 'Director', imageUrl: '/Hitesh Patel - Director Photo.JPEG', imageHint: 'male portrait' },
+  { name: 'Vasant Patel', role: 'Director', imageUrl: '/Vasant Patel - Director Photo.JPEG', imageHint: 'male portrait' },
+  { name: 'Suresh Patel', role: 'Admin Head', imageUrl: '/Admin_Head_Photo.JPEG', imageHint: 'male portrait' },
 ];
 
 const facilityImages = [
-    PlaceHolderImages.find(p => p.id === 'facility-1'),
-    PlaceHolderImages.find(p => p.id === 'facility-2'),
-    PlaceHolderImages.find(p => p.id === 'facility-3'),
-    PlaceHolderImages.find(p => p.id === 'facility-4'),
-].filter(Boolean) as {id: string, description: string, imageUrl: string, imageHint: string}[];
+    { id: 'factory-1', description: 'Factory facility 1', imageUrl: '/factory 1.JPG', imageHint: 'industrial facility' },
+    { id: 'factory-2', description: 'Factory facility 2', imageUrl: '/factory 2.JPG', imageHint: 'industrial facility' },
+    { id: 'factory-3', description: 'Factory facility 3', imageUrl: '/factory 3.JPG', imageHint: 'industrial facility' },
+];
 
 
 export default function AboutPage() {
