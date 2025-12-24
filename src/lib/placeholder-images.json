@@ -1,0 +1,136 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-pcb",
+      "description": "A close-up of a printed circuit board with glowing tracks.",
+      "imageUrl": "/hero-pcb.png",
+      "imageHint": "circuit board technology"
+    },
+    {
+      "id": "single-layer-pcb-1",
+      "description": "A simple single layer PCB with clear traces.",
+      "imageUrl": "/single-layer-pcb.gif",
+      "imageHint": "simple pcb"
+    },
+    {
+      "id": "single-layer-pcb-2",
+      "description": "Top view of a basic green single-sided PCB.",
+      "imageUrl": "/single-layer-pcb-2.png",
+      "imageHint": "green pcb"
+    },
+    {
+      "id": "single-layer-pcb-3",
+      "description": "A single layer board used in a small electronic device.",
+      "imageUrl": "/single-layer-pcb-3.png",
+      "imageHint": "small electronic"
+    },
+    {
+      "id": "double-layer-pcb-1",
+      "description": "A more complex double layer PCB with components.",
+      "imageUrl": "/double-layer-pcb.jpeg.jpg",
+      "imageHint": "complex pcb"
+    },
+    {
+      "id": "double-layer-pcb-2",
+      "description": "A double-sided PCB showing tracks on both sides.",
+      "imageUrl": "/double-layer-pcb-2.png",
+      "imageHint": "double sided pcb"
+    },
+    {
+      "id": "double-layer-pcb-3",
+      "description": "Close-up of a double layer PCB with microchips.",
+      "imageUrl": "/double-layer-pcb-3.png",
+      "imageHint": "microchip"
+    },
+    {
+      "id": "multi-layer-pcb-1",
+      "description": "A dense multi-layer PCB for advanced electronics.",
+      "imageUrl": "/multilayer-pcbs.webp",
+      "imageHint": "advanced pcb"
+    },
+    {
+      "id": "multi-layer-pcb-2",
+      "description": "Cross-section view showing the internal layers of a multilayer PCB.",
+      "imageUrl": "/multi-layer-pcb-2.png",
+      "imageHint": "multilayer pcb"
+    },
+    {
+      "id": "multi-layer-pcb-3",
+      "description": "A complex motherboard with many layers.",
+      "imageUrl": "/multi-layer-pcb-3.png",
+      "imageHint": "motherboard"
+    },
+    {
+      "id": "facility-1",
+      "description": "Aerial view of the Apselon Technology facility with solar panels on the roof.",
+      "imageUrl": "/facility-1.png",
+      "imageHint": "industrial building"
+    },
+    {
+      "id": "facility-2",
+      "description": "A side view of the manufacturing unit.",
+      "imageUrl": "/facility-2.png",
+      "imageHint": "factory exterior"
+    },
+    {
+      "id": "facility-3",
+      "description": "The green grounds and entrance of the Apselon facility.",
+      "imageUrl": "/facility-3.png",
+      "imageHint": "factory garden"
+    },
+    {
+      "id": "facility-4",
+      "description": "Interior view of the Apselon manufacturing facility.",
+      "imageUrl": "/Factory_6.JPG",
+      "imageHint": "factory interior"
+    },
+    {
+      "id": "trust-delivery",
+      "description": "A delivery truck on the road, symbolizing fast delivery.",
+      "imageUrl": "/trust-delivery.png",
+      "imageHint": "delivery truck"
+    },
+    {
+      "id": "trust-accuracy",
+      "description": "A measuring tool ensuring precision on a technical drawing.",
+      "imageUrl": "/trust-accuracy.png",
+      "imageHint": "precision measurement"
+    },
+    {
+      "id": "trust-automation",
+      "description": "A robotic arm working on a production line.",
+      "imageUrl": "/trust-automation.png",
+      "imageHint": "robotic arm"
+    },
+    {
+      "id": "trust-pricing",
+      "description": "A calculator and pen on a desk, symbolizing competitive pricing.",
+      "imageUrl": "/trust-pricing.png",
+      "imageHint": "calculator budget"
+    },
+    {
+      "id": "trust-qc",
+      "description": "An inspector examining a PCB with a magnifying glass.",
+      "imageUrl": "/trust-qc.png",
+      "imageHint": "pcb inspection"
+    },
+    {
+      "id": "trust-support",
+      "description": "A friendly customer support agent with a headset.",
+      "imageUrl": "/trust-support.png",
+      "imageHint": "customer support"
+    },
+    {
+      "id": "trust-oem",
+      "description": "A handshake sealing a business deal, symbolizing trust.",
+      "imageUrl": "/trust-oem.png",
+      "imageHint": "business handshake"
+    },
+    {
+      "id": "apselon-intro-video",
+      "description": "Apselon Technology introduction video",
+      "imageUrl": "/apselon_intro.mp4",
+      "imageHint": "company video"
+    }
+  ]
+}
