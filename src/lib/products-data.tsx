@@ -28,10 +28,10 @@ export const products: Product[] = [
     features: ['Consumer Electronics', 'LED Lighting', 'Power Supplies', 'Automotive', 'Calculators', 'Printers'],
     badge: null,
     images: [
-        { id: 'single-layer-1', description: 'Single layer PCB 1', imageUrl: '/single layer 1.jpg', imageHint: 'single layer pcb' },
-        { id: 'single-layer-2', description: 'Single layer PCB 2', imageUrl: '/single layer 2.jpg', imageHint: 'single layer pcb' },
-        { id: 'single-layer-3', description: 'Single layer PCB 3', imageUrl: '/single layer 3.jpg', imageHint: 'single layer pcb' },
-        { id: 'single-layer-4', description: 'Single layer PCB 4', imageUrl: '/single layer 4.jpg', imageHint: 'single layer pcb' },
+        { id: 'single-layer-1', description: 'Single layer PCB 1', imageUrl: '/Single Layer 1.JPG', imageHint: 'single layer pcb' },
+        { id: 'single-layer-2', description: 'Single layer PCB 2', imageUrl: '/Single layer 2.JPG', imageHint: 'single layer pcb' },
+        { id: 'single-layer-3', description: 'Single layer PCB 3', imageUrl: '/Single layer 3.JPG', imageHint: 'single layer pcb' },
+        { id: 'single-layer-4', description: 'Single layer PCB 4', imageUrl: '/Single layer 4.JPG', imageHint: 'single layer pcb' },
     ],
   },
   {
@@ -42,10 +42,10 @@ export const products: Product[] = [
     features: ['Industrial Controls', 'Instrumentation', 'Communication Systems', 'HVAC', 'Medical Equipment', 'Amplifiers'],
     badge: null,
     images: [
-        { id: 'double-side-1', description: 'Double side PCB 1', imageUrl: '/DL 1.jpg', imageHint: 'double side pcb' },
-        { id: 'double-side-2', description: 'Double side PCB 2', imageUrl: '/DL 2.jpg', imageHint: 'double side pcb' },
-        { id: 'double-side-3', description: 'Double side PCB 3', imageUrl: '/DL 3.jpg', imageHint: 'double side pcb' },
-        { id: 'double-side-4', description: 'Double side PCB 4', imageUrl: '/DL 4.jpg', imageHint: 'double side pcb' },
+        { id: 'double-side-1', description: 'Double side PCB 1', imageUrl: '/DL 1.JPG', imageHint: 'double side pcb' },
+        { id: 'double-side-2', description: 'Double side PCB 2', imageUrl: '/DL 2.JPG', imageHint: 'double side pcb' },
+        { id: 'double-side-3', description: 'Double side PCB 3', imageUrl: '/DL 3.JPG', imageHint: 'double side pcb' },
+        { id: 'double-side-4', description: 'Double side PCB 4', imageUrl: '/DL 4.JPG', imageHint: 'double side pcb' },
     ],
   },
   {
@@ -56,10 +56,10 @@ export const products: Product[] = [
     features: ['Aerospace', 'Medical Devices', 'IoT Gadgets', 'High-speed circuits', 'Computers', 'Smartphones'],
     badge: 'Coming Soon',
     images: [
-        { id: 'multi-layer-1', description: 'Multi Layer PCB 1', imageUrl: '/ML 1.jpg', imageHint: 'multi layer pcb' },
-        { id: 'multi-layer-2', description: 'Multi Layer PCB 2', imageUrl: '/ML 2.jpg', imageHint: 'multi layer pcb' },
-        { id: 'multi-layer-3', description: 'Multi Layer PCB 3', imageUrl: '/ML 3.jpg', imageHint: 'multi layer pcb' },
-        { id: 'multi-layer-4', description: 'Multi Layer PCB 4', imageUrl: '/ML 4.jpg', imageHint: 'multi layer pcb' },
+        { id: 'multi-layer-1', description: 'Multi Layer PCB 1', imageUrl: '/ML 1.JPG', imageHint: 'multi layer pcb' },
+        { id: 'multi-layer-2', description: 'Multi Layer PCB 2', imageUrl: '/ML 2.JPG', imageHint: 'multi layer pcb' },
+        { id: 'multi-layer-3', description: 'Multi Layer PCB 3', imageUrl: '/ML 3.JPG', imageHint: 'multi layer pcb' },
+        { id: 'multi-layer-4', description: 'Multi Layer PCB 4', imageUrl: '/ML 4.JPG', imageHint: 'multi layer pcb' },
     ],
   },
 ];
