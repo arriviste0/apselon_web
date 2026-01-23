@@ -39,7 +39,6 @@ const features = [
 
 const leadership = [
   { name: 'Hitesh Patel', role: 'Director', imageUrl: '/Hitesh Patel - Director Photo.JPEG', imageHint: 'male portrait' },
-  { name: 'Vasant Patel', role: 'Director', imageUrl: '/Vasant Patel - Director Photo.JPEG', imageHint: 'male portrait' },
   { name: 'Suresh Patel', role: 'Admin Head', imageUrl: '/Admin_Head_Photo.JPEG', imageHint: 'male portrait' },
 ];
 
@@ -131,11 +130,11 @@ export default function AboutPage() {
         <section className="py-16 md:py-24 bg-secondary/30">
             <div className="container mx-auto px-4 md:px-6 text-center">
                 <h3 className="text-2xl md:text-3xl font-bold">Our Leadership</h3>
-                <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div className="mt-8 grid sm:grid-cols-2 gap-8 max-w-5xl mx-auto justify-items-center">
                     {leadership.map((person, index) => (
-                        <Card key={index} className="overflow-hidden animate-fade-in-up" style={{ animationDelay: `${300 + index * 150}ms` }}>
-                            <CardContent className="p-6 text-center">
-                                <div className="relative mx-auto h-36 w-36 mb-4">
+                        <Card key={index} className="w-full max-w-sm overflow-hidden animate-fade-in-up" style={{ animationDelay: `${300 + index * 150}ms` }}>
+                            <CardContent className="p-8 text-center">
+                                <div className="relative mx-auto h-44 w-44 mb-5">
                                   <Image
                                     src={person.imageUrl}
                                     alt={`Portrait of ${person.name}`}
