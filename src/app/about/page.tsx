@@ -38,8 +38,9 @@ const features = [
 ];
 
 const leadership = [
-  { name: 'Hitesh Patel', role: 'Director', imageUrl: '/Hitesh Patel - Director Photo.JPEG', imageHint: 'male portrait' },
-  { name: 'Suresh Patel', role: 'Admin Head', imageUrl: '/Admin_Head_Photo.JPEG', imageHint: 'male portrait' },
+  { name: 'Hitesh Patel', role: 'Director', imageUrl: '/Hitesh Patel Director.png', imageHint: 'male portrait' },
+  { name: 'Suresh Patel', role: 'Director', imageUrl: '/Suresh Patel Director.jpeg', imageHint: 'male portrait' },
+  { name: 'Om Patel', role: 'Chief Administrative Officer', imageUrl: '/Chief Administrative Officer - Om Patel.png', imageHint: 'male portrait' },
 ];
 
 const facilityImages = [
