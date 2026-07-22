@@ -89,8 +89,46 @@ export function Trust() {
 
 
   return (
-    <section id="trust" ref={scrollRef} className="relative py-24 bg-secondary/30 h-[400vh]">
-        <div className="sticky top-0 h-screen flex items-center">
+    <section id="trust" ref={scrollRef} className="relative py-24 bg-secondary/30 lg:h-[400vh]">
+        {/* MOBILE STATIC VERSION */}
+        <div className="container mx-auto px-4 md:px-6 lg:hidden">
+            <div className="text-center max-w-3xl mx-auto mb-16">
+                <h2 className="text-3xl md:text-4xl font-bold text-primary">
+                    Why Customers Trust Apselon?
+                </h2>
+                <p className="mt-4 text-lg text-foreground/80">
+                    We are committed to delivering excellence and reliability, which has
+                    made us a trusted partner in the industry.
+                </p>
+            </div>
+            <div className="flex flex-col gap-8">
+                {trustPoints.map((point, index) => (
+                    <Card key={index} className="bg-card">
+                        <CardHeader className="flex-row items-center gap-4">
+                            <div className="bg-primary/10 text-primary p-3 rounded-lg">
+                                {point.icon}
+                            </div>
+                            <CardTitle>{point.title}</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                            <p className="text-muted-foreground">{point.description}</p>
+                            <div className="mt-6 relative h-[250px] w-full rounded-xl overflow-hidden shadow-md">
+                                <Image 
+                                    src={point.image.imageUrl}
+                                    alt={point.image.description}
+                                    fill
+                                    className="object-cover"
+                                    data-ai-hint={point.image.imageHint}
+                                />
+                            </div>
+                        </CardContent>
+                    </Card>
+                ))}
+            </div>
+        </div>
+
+        {/* DESKTOP ANIMATED VERSION */}
+        <div className="hidden lg:flex sticky top-0 h-screen items-center">
             <div className="container mx-auto px-4 md:px-6">
                  <div className="text-center max-w-3xl mx-auto mb-16 relative">
                     <motion.h2 

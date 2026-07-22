@@ -38,9 +38,9 @@ const features = [
 ];
 
 const leadership = [
-  { name: 'Hitesh Patel', role: 'Director', imageUrl: '/Hitesh Patel Director.png', imageHint: 'male portrait' },
-  { name: 'Suresh Patel', role: 'Director', imageUrl: '/Suresh Patel Director.jpeg', imageHint: 'male portrait' },
-  { name: 'Om Patel', role: 'Chief Administrative Officer', imageUrl: '/Chief Administrative Officer - Om Patel.png', imageHint: 'male portrait' },
+  { name: 'Hitesh Patel', role: 'Director', imageUrl: '/Hitesh Patel Director.png', imageHint: 'male portrait', objectPosition: 'center' },
+  { name: 'Suresh Patel', role: 'Director', imageUrl: '/Suresh Patel Director.jpeg', imageHint: 'male portrait', objectPosition: 'center' },
+  { name: 'Om Patel', role: 'Chief Administrative Officer', imageUrl: '/Chief Administrative Officer - Om Patel.png', imageHint: 'male portrait', objectPosition: 'top' },
 ];
 
 const facilityImages = [
@@ -131,7 +131,7 @@ export default function AboutPage() {
         <section className="py-16 md:py-24 bg-secondary/30">
             <div className="container mx-auto px-4 md:px-6 text-center">
                 <h3 className="text-2xl md:text-3xl font-bold">Our Leadership</h3>
-                <div className="mt-8 grid sm:grid-cols-2 gap-8 max-w-5xl mx-auto justify-items-center">
+                <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto justify-items-center">
                     {leadership.map((person, index) => (
                         <Card key={index} className="w-full max-w-sm overflow-hidden animate-fade-in-up" style={{ animationDelay: `${300 + index * 150}ms` }}>
                             <CardContent className="p-8 text-center">
@@ -139,10 +139,10 @@ export default function AboutPage() {
                                   <Image
                                     src={person.imageUrl}
                                     alt={`Portrait of ${person.name}`}
-                                    className="rounded-full"
+                                    className="rounded-full object-cover w-full h-full"
+                                    style={{ objectPosition: person.objectPosition || 'center' }}
                                     width={200}
                                     height={200}
-                                    objectFit="cover"
                                     data-ai-hint={person.imageHint}
                                   />
                                 </div>
